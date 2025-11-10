@@ -61,6 +61,9 @@
         <mxCell id="_fECvSK-kheDzjL62uX4-70" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#ACACAC;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="860" y="830" width="104.57" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="_fECvSK-kheDzjL62uX4-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fECvSK-kheDzjL62uX4-77" target="_fECvSK-kheDzjL62uX4-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_fECvSK-kheDzjL62uX4-77" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://devio2023-media.developers.io/wp-content/uploads/2024/04/imresizer-1712210027779.jpg;" vertex="1" parent="1">
           <mxGeometry x="1110" y="660" width="170" height="80" as="geometry" />
         </mxCell>
@@ -91,9 +94,6 @@
         <mxCell id="_fECvSK-kheDzjL62uX4-101" value="Diamond" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="1120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_fECvSK-kheDzjL62uX4-102" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;gradientColor=none;fillColor=#6600CC;strokeColor=#6600CC;opacity=10;" vertex="1" parent="1">
-          <mxGeometry width="1290" height="1250" as="geometry" />
-        </mxCell>
         <mxCell id="_fECvSK-kheDzjL62uX4-103" value="Ingestion Workers" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="857.14" y="920" width="110" height="30" as="geometry" />
         </mxCell>
@@ -102,6 +102,24 @@
         </mxCell>
         <mxCell id="_fECvSK-kheDzjL62uX4-105" value="Redis" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_fECvSK-kheDzjL62uX4-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fECvSK-kheDzjL62uX4-106" target="_fECvSK-kheDzjL62uX4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fECvSK-kheDzjL62uX4-106" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="70" height="77.78" as="geometry" />
+        </mxCell>
+        <mxCell id="_fECvSK-kheDzjL62uX4-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fECvSK-kheDzjL62uX4-107" target="_fECvSK-kheDzjL62uX4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fECvSK-kheDzjL62uX4-107" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/laptop_client.svg;" vertex="1" parent="1">
+          <mxGeometry x="110" y="531.89" width="70" height="77.78" as="geometry" />
+        </mxCell>
+        <mxCell id="_fECvSK-kheDzjL62uX4-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_fECvSK-kheDzjL62uX4-112" target="_fECvSK-kheDzjL62uX4-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_fECvSK-kheDzjL62uX4-112" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://w7.pngwing.com/pngs/99/908/png-transparent-slack-hd-logo-thumbnail.png;" vertex="1" parent="1">
+          <mxGeometry x="410" y="810" width="98" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
