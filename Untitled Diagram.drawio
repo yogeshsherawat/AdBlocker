@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="_9_GRQAd3MLy61652iAd">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Services" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="614" width="747" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Data Processing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="249" y="311" width="483" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="API" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="67" y="8" width="673" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="API Service" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="378" y="33" width="139" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="API Gateway" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="372" y="160" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Ingestion Service" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="296" y="336" width="181" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Celeyr Workers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="529" y="463" width="168" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Monitoring Service" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="43" y="639" width="192" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Event Bus" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="285" y="639" width="129" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Configuration Service" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="506" y="639" width="214" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Handles requests" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Routes requests" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="387" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Processes data" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0.11;entryY=-0.01;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="461" y="426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Sends data" style="curved=1;startArrow=none;endArrow=block;exitX=0.66;exitY=-0.01;entryX=1;entryY=0.85;" edge="1" parent="1" source="8" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="678" y="426" />
+              <mxPoint x="678" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Health checks" style="curved=1;startArrow=none;endArrow=block;exitX=0.98;exitY=0.99;entryX=0.43;entryY=-0.01;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="587" y="239" />
+              <mxPoint x="587" y="426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Logs to" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.76;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="139" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Triggers events" style="curved=1;startArrow=none;endArrow=block;exitX=0.42;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="426" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Fetches configs from" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="8" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
